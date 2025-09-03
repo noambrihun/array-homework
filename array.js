@@ -1,5 +1,10 @@
+function sortArray(arr){
+    return arr.sort(function(a, b){return b-a});
+}
+let arr= [5,3,8,1,4];
+console.log(sortArray(arr));
+
 let numbers= [32,74,84,65,75];
-numbers.sort(function(a,b){return b-a});
 console.log(numbers);
 
 function getArrays(arr1,arr2) {
